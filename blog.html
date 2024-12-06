@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bike</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <meta name="description" content="Сайт про подорожі велосипедом">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+</head>
+<body>
+    <div class="modal-overlay">
+        <div class="modal">
+            <button class="close-modal-btn">&times;</button>
+            <h2>Отримати пропозицію</h2>
+            <form class="modal-form">
+                <input type="text" placeholder="Ваше ім'я" required>
+                <input type="email" placeholder="Ваш email" required>
+                <textarea placeholder="Ваше повідомлення" required></textarea>
+                <button type="submit">Відправити</button>
+            </form>
+        </div>
+    </div>
+    <header class="header">
+        <a href="index.html"><img src="img/logo.png" alt="img"></a>
+        <div class="burger">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="about.html">Про нас</a></li>
+                <li><a href="price.html">Ціни</a></li>
+                <li><a href="#">Блог</a></li>
+                <li><a href="#" class="open-modal-btn"><strong>Отримати пропозицію</strong></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main-section blog-s">
+        <h1>Знаходьте <span>Пригоди</span> Будь-Де</h1>
+        <p>Найкращі Велосипеди, Створені Для Вас</p>
+        <a href="#" class="btn-order">Забронювати сьогодні</a>
+        <p class="blog-text">Ознайомтесь з нашим блогом про подорожі
+            на велосипеді та дізнайтесь який велосипед краще вибрати
+            для тих чи інших умов.</p>
+    </main>
+    <section class="blog-section-cards">
+        <div class="blog-card">
+            <img src="img/bike1.png" alt="Велосипед в лісі">
+            <h3>Велосипеди в ліс</h3>
+            <p>Насолоджуйтесь подорожами на велосипеді серед мальовничих лісових стежок.</p>
+            <p class="advice"><strong>Порада:</strong> Обирайте гірські велосипеди із широкими покришками для кращого зчеплення з нерівною поверхнею.</p>
+        </div>
+        <div class="blog-card">
+            <img src="img/bike2.png" alt="Велосипед на асфальті">
+            <h3>Велосипеди на асфальті</h3>
+            <p>Ідеальний вибір для міських доріг та асфальтованих трас.</p>
+            <p class="advice"><strong>Порада:</strong> Шосейні велосипеди з вузькими колесами забезпечують швидкість і ефективність на рівній поверхні.</p>
+        </div>
+        <div class="blog-card">
+            <img src="img/bike3.png" alt="Велосипед на піску">
+            <h3>Велосипеди на піску</h3>
+            <p>Досліджуйте пляжі та піщані місцевості на вашому двоколісному транспорті.</p>
+            <p class="advice"><strong>Порада:</strong> Фетбайки з дуже широкими покришками найкраще підходять для піщаних поверхонь.</p>
+        </div>
+        <div class="blog-card">
+            <img src="img/bike4.png" alt="Велосипед у горах">
+            <h3>Велосипеди в горах</h3>
+            <p>Підкорюйте гірські схили та насолоджуйтесь активним відпочинком.</p>
+            <p class="advice"><strong>Порада:</strong> Обирайте велосипеди з амортизаційною вилкою та міцною рамою для складних трас і спусків.</p>
+        </div>
+        <div class="blog-card">
+            <img src="img/bike5.png" alt="Велосипед в лісі">
+            <h3>Велосипеди на траві</h3>
+            <p>Зануртесь у природу і відчуйте її справжню магію.</p>
+            <p class="advice"><strong>Порада:</strong> Гібридні велосипеди з комфортною посадкою чудово підходять для довгих прогулянках по тряв'яних галявинах.</p>
+        </div>
+    </section>
+    <div class="photo-block-two"></div>
+    <section class="subscribe-section">
+        <h2>Підпишіться на наш список розсилки</h2>
+        <p>Отримайте безкоштовний велосипедний комплект</p>
+        <form class="subscribe-form">
+            <input type="email" placeholder="Enter your email" required>
+            <a href="#">Send</a>
+        </form>
+    </section>
+    <footer>
+        <div class="social-links">
+            <a href="#"><i class="fa-brands fa-instagram" style="color: #949494;"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook" style="color: #949494;"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter" style="color: #949494;"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin" style="color: #949494;"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube" style="color: #949494;"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok" style="color: #949494;"></i></a>
+        </div>
+        <p>2024 by Creator Asti S</p>
+    </footer>
+
+    <script src="script/script.js"></script>
+</body>
+</html>
